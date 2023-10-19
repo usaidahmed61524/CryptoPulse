@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back-cover {
+  background: radial-gradient(38.800000000000004% 42.6% at 57.3% 53.300000000000004%, rgba(190, 248, 79, 0.2) 0%, rgb(68 21 49) 100%);
+}
+
+.back-image-one {
+  background: url(../../public/images/five-one.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.back-image-two {
+  background: url(../../public/images/five-two.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.b-box {
+  backdrop-filter: blur(12.5px);
+  border-radius: 8px;
+}
+
+.b-box:hover {
+  height: 150px;
+}
+
+.bg-black {
+  background: linear-gradient(45deg, #240000e3, #3a1212) !important;
+}
+
+
+button.btn-close {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button.btn.btn-danger {
+  background-color: #dc3545 !important;
+}
+
+button.btn.btn-dark {
+  background-color: #261516 !important;
+}
+
+.spinner-border {
+  display: inline-block !important;
+  width: 50px !important;
+  color: #bef84f !important;
+  position: fixed !important;
+  top: 50% !important;
+  height: 50px !important;
+  left: 50% !important;
+  vertical-align: -0.125em !important;
+  background-color: currentColor !important;
+  border-radius: 50% !important;
+  -webkit-animation: .75s linear infinite spinner-grow !important;
+  animation: .75s linear infinite spinner-grow !important;
+}
+
+
+.modal-content {
+  background: linear-gradient(45deg, #5f7c2794, #220b18b0) !important;
+}
